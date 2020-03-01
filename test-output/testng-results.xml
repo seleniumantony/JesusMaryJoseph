@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="72" started-at="2020-02-28T19:36:57Z" finished-at="2020-02-28T19:36:57Z">
+  <suite name="Suite" duration-ms="18673" started-at="2020-02-29T18:42:14Z" finished-at="2020-02-29T18:42:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="72" started-at="2020-02-28T19:36:57Z" finished-at="2020-02-28T19:36:57Z">
-      <class name="sampleng.sampleng">
-        <test-method status="PASS" signature="Login()[pri:0, instance:sampleng.sampleng@56f4468b]" name="Login" duration-ms="16" started-at="2020-02-29T01:06:57Z" finished-at="2020-02-29T01:06:57Z">
+    <test name="Test" duration-ms="18673" started-at="2020-02-29T18:42:14Z" finished-at="2020-02-29T18:42:33Z">
+      <class name="jesus.ListenerClassDemo">
+        <test-method status="PASS" signature="method()[pri:0, instance:jesus.ListenerClassDemo@9629756]" name="method" duration-ms="18644" started-at="2020-03-01T00:12:14Z" finished-at="2020-03-01T00:12:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="search()[pri:0, instance:sampleng.sampleng@56f4468b]" name="search" duration-ms="9" started-at="2020-02-29T01:06:57Z" finished-at="2020-02-29T01:06:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="t()[pri:0, instance:sampleng.sampleng@56f4468b]" name="t" duration-ms="6" started-at="2020-02-29T01:06:57Z" finished-at="2020-02-29T01:06:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- t -->
-        <test-method status="PASS" signature="Logout()[pri:0, instance:sampleng.sampleng@56f4468b]" name="Logout" duration-ms="2" started-at="2020-02-29T01:06:57Z" finished-at="2020-02-29T01:06:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method status="PASS" signature="Logout1()[pri:0, instance:sampleng.sampleng@56f4468b]" name="Logout1" duration-ms="1" started-at="2020-02-29T01:06:57Z" finished-at="2020-02-29T01:06:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout1 -->
-        <test-method status="PASS" signature="Logout125()[pri:0, instance:sampleng.sampleng@56f4468b]" name="Logout125" duration-ms="4" started-at="2020-02-29T01:06:57Z" finished-at="2020-02-29T01:06:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout125 -->
-        <test-method status="PASS" signature="Logout12()[pri:0, instance:sampleng.sampleng@56f4468b]" name="Logout12" duration-ms="1" started-at="2020-02-29T01:06:57Z" finished-at="2020-02-29T01:06:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout12 -->
-      </class> <!-- sampleng.sampleng -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- method -->
+      </class> <!-- jesus.ListenerClassDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
