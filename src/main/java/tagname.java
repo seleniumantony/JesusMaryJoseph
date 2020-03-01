@@ -19,7 +19,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 				WebDriver driver = new ChromeDriver();						 
 						 
 		driver.manage().window().maximize();
-		driver.get("https://www.google.com/");
+		driver.get("https://www.dell.com/en-in/shop/laptops-2-in-1-pcs/sc/laptops");
 		List<WebElement> link=driver.findElements(By.xpath("//a"));
 		int a=link.size();
 		System.out.println(a);

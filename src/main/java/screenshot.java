@@ -17,12 +17,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 					 
 					 
 	driver.manage().window().maximize();
-	driver.get("https://www.google.com/");
-	 
+	driver.get("https://www.linkedin.com/login");
+	 //learn
 	 		              File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	//The below method will save the screen shot in d drive with name "screenshot.png"
 	try {
-		FileUtils.copyFile(scrFile, new File("D:\\screenshot.png"));
+		//learn
+		FileUtils.copyFile(scrFile, new File("D:\\xavier.png"));
 	} catch (IOException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();

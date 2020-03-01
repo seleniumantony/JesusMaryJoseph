@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="jesus.SampleTest">
+      <class name="extentreport.ExtentReportsClass">
         <methods>
-          <include name="testMethodThree"/>
-          <include name="testMethodTwo"/>
+          <include name="setup"/>
+          <include name="extentReportSetup"/>
+          <include name="GoogleLogoValidation"/>
+          <include name="GoogleTittleValidation"/>
+          <include name="getResult"/>
         </methods>
-      </class> <!-- jesus.SampleTest -->
+      </class> <!-- extentreport.ExtentReportsClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
