@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="1" failed="1" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32342" started-at="2020-03-06T18:31:53Z" finished-at="2020-03-06T18:32:25Z">
+  <suite name="Default suite" duration-ms="17329" started-at="2020-03-07T15:08:01Z" finished-at="2020-03-07T15:08:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32342" started-at="2020-03-06T18:31:53Z" finished-at="2020-03-06T18:32:25Z">
-      <class name="JMJextentReport.jmj">
-        <test-method status="PASS" signature="extentReportSetup()[pri:0, instance:JMJextentReport.jmj@7823a2f9]" name="extentReportSetup" is-config="true" duration-ms="435" started-at="2020-03-07T00:01:53Z" finished-at="2020-03-07T00:01:53Z">
+    <test name="Default test" duration-ms="17329" started-at="2020-03-07T15:08:01Z" finished-at="2020-03-07T15:08:19Z">
+      <class name="com.objectrepository.demo.ExtentReportsClass">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]" name="startReport" is-config="true" duration-ms="337" started-at="2020-03-07T20:38:01Z" finished-at="2020-03-07T20:38:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- extentReportSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:JMJextentReport.jmj@7823a2f9]" name="setup" is-config="true" duration-ms="14543" started-at="2020-03-07T00:01:53Z" finished-at="2020-03-07T00:02:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="GoogleLogoValidation()[pri:0, instance:JMJextentReport.jmj@7823a2f9]" name="GoogleLogoValidation" duration-ms="144" started-at="2020-03-07T00:02:08Z" finished-at="2020-03-07T00:02:08Z">
+        </test-method> <!-- startReport -->
+        <test-method status="FAIL" signature="failTest()[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]" name="failTest" duration-ms="15" started-at="2020-03-07T20:38:02Z" finished-at="2020-03-07T20:38:02Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [false] but found [true]]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.failNotEquals(Assert.java:489)
-	at org.testng.Assert.assertFalse(Assert.java:58)
-	at org.testng.Assert.assertFalse(Assert.java:68)
-	at JMJextentReport.jmj.GoogleLogoValidation(jmj.java:76)
+	at org.testng.Assert.assertTrue(Assert.java:37)
+	at org.testng.Assert.assertTrue(Assert.java:47)
+	at com.objectrepository.demo.ExtentReportsClass.failTest(ExtentReportsClass.java:70)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -56,12 +52,12 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GoogleLogoValidation -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:JMJextentReport.jmj@7823a2f9]" name="getResult" is-config="true" duration-ms="1289" started-at="2020-03-07T00:02:08Z" finished-at="2020-03-07T00:02:09Z">
+        </test-method> <!-- failTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]" name="getResult" is-config="true" duration-ms="10" started-at="2020-03-07T20:38:02Z" finished-at="2020-03-07T20:38:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult: GoogleLogoValidation STATUS:FAILURE METHOD:jmj.GoogleLogoValidation()[pri:0, instance:JMJextentReport.jmj@7823a2f9]]
+                <![CDATA[[TestResult: failTest STATUS:FAILURE METHOD:ExtentReportsClass.failTest()[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]]
 ]]>
               </value>
             </param>
@@ -69,19 +65,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:JMJextentReport.jmj@7823a2f9]" name="setup" is-config="true" duration-ms="13963" started-at="2020-03-07T00:02:09Z" finished-at="2020-03-07T00:02:23Z">
+        <test-method status="PASS" signature="passTest()[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]" name="passTest" duration-ms="16365" started-at="2020-03-07T20:38:02Z" finished-at="2020-03-07T20:38:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="GoogleTittleValidation()[pri:0, instance:JMJextentReport.jmj@7823a2f9]" name="GoogleTittleValidation" duration-ms="10" started-at="2020-03-07T00:02:23Z" finished-at="2020-03-07T00:02:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GoogleTittleValidation -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:JMJextentReport.jmj@7823a2f9]" name="getResult" is-config="true" duration-ms="1192" started-at="2020-03-07T00:02:23Z" finished-at="2020-03-07T00:02:24Z">
+        </test-method> <!-- passTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]" name="getResult" is-config="true" duration-ms="1" started-at="2020-03-07T20:38:18Z" finished-at="2020-03-07T20:38:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult: GoogleTittleValidation STATUS:SUCCESS METHOD:jmj.GoogleTittleValidation()[pri:0, instance:JMJextentReport.jmj@7823a2f9]]
+                <![CDATA[[TestResult: passTest STATUS:SUCCESS METHOD:ExtentReportsClass.passTest()[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]]
 ]]>
               </value>
             </param>
@@ -89,11 +81,77 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:JMJextentReport.jmj@7823a2f9]" name="endReport" is-config="true" duration-ms="743" started-at="2020-03-07T00:02:24Z" finished-at="2020-03-07T00:02:25Z">
+        <test-method status="SKIP" signature="skipTest()[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]" name="skipTest" duration-ms="2" started-at="2020-03-07T20:38:18Z" finished-at="2020-03-07T20:38:18Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping - This is not ready for testing ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping - This is not ready for testing 
+	at com.objectrepository.demo.ExtentReportsClass.skipTest(ExtentReportsClass.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]" name="getResult" is-config="true" duration-ms="0" started-at="2020-03-07T20:38:18Z" finished-at="2020-03-07T20:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: skipTest STATUS:SKIP METHOD:ExtentReportsClass.skipTest()[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="supers()[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]" name="supers" duration-ms="1" started-at="2020-03-07T20:38:18Z" finished-at="2020-03-07T20:38:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supers -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]" name="getResult" is-config="true" duration-ms="0" started-at="2020-03-07T20:38:18Z" finished-at="2020-03-07T20:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: supers STATUS:SUCCESS METHOD:ExtentReportsClass.supers()[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.objectrepository.demo.ExtentReportsClass@1b604f19]" name="endReport" is-config="true" duration-ms="572" started-at="2020-03-07T20:38:18Z" finished-at="2020-03-07T20:38:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- JMJextentReport.jmj -->
+      </class> <!-- com.objectrepository.demo.ExtentReportsClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

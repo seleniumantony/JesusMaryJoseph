@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="JMJextentReport.jmj">
+      <class name="com.objectrepository.demo.ExtentReportsClass">
         <methods>
-          <include name="extentReportSetup"/>
+          <include name="skipTest"/>
           <include name="endReport"/>
-          <include name="setup"/>
-          <include name="GoogleLogoValidation"/>
+          <include name="startReport"/>
+          <include name="failTest"/>
           <include name="getResult"/>
         </methods>
-      </class> <!-- JMJextentReport.jmj -->
+      </class> <!-- com.objectrepository.demo.ExtentReportsClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -149,6 +149,15 @@
     <version>4.0.6</version>
 </dependency>
 	</dependencies>
+	
+	
+
+	
+	
+	
+	
+	
+	
 	<build>
 		<plugins>
 			<!-- Following plugin executes the testng tests -->
