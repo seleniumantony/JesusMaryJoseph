@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="com.objectrepository.demo.ExtentReportsClass">
+      <class name="jesus.ListenerClassDemo">
         <methods>
-          <include name="skipTest"/>
-          <include name="endReport"/>
-          <include name="startReport"/>
-          <include name="failTest"/>
-          <include name="getResult"/>
+          <include name="method"/>
         </methods>
-      </class> <!-- com.objectrepository.demo.ExtentReportsClass -->
+      </class> <!-- jesus.ListenerClassDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
