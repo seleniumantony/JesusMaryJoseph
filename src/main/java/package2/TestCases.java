@@ -9,7 +9,7 @@ public class TestCases {
 
 public static void main(String[] args) {
 // TODO Auto-generated method stub
-	System.setProperty("webdriver.chrome.driver", "D:\\Antony\\eclipse for Appium\\eclipse-jee-oxygen-3a-win32-x86_64\\eclipse\\chromedriver_win32\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\antonyj\\git\\practice\\JesusMaryJoseph\\src\\main\\resources\\chromedriver.exe");
 
 WebDriver driver = new ChromeDriver();
 driver.get("https://dac-map-beta.azurewebsites.net/#");

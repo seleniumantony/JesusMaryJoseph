@@ -16,7 +16,7 @@ public class Logsinconsole {
         
        PropertyConfigurator.configure("C:\\Users\\antonyj\\git\\practice\\JesusMaryJoseph\\src\\main\\java\\Logsinconsole\\Log4j.properties");
 
-       System.setProperty("webdriver.chrome.driver", "D:\\Antony\\eclipse for Appium\\eclipse-jee-oxygen-3a-win32-x86_64\\eclipse\\chromedriver_win32\\chromedriver.exe");
+       System.setProperty("webdriver.chrome.driver", "C:\\Users\\antonyj\\git\\practice\\JesusMaryJoseph\\src\\main\\resources\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		 
