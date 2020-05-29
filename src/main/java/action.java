@@ -8,6 +8,18 @@ import org.openqa.selenium.support.ui.Select;
 public class action {
 
 	public static void main(String[] args) {
+		
+		
+		int aa=9;int bb=0;
+		try
+		{
+			int c=aa/bb;
+			System.out.println("val"+c);
+		}
+		catch(ArithmeticException e) {
+			
+			System.out.println("Arithmatic exception happened");
+		}
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\antonyj\\git\\practice\\JesusMaryJoseph\\src\\main\\resources\\chromedriver.exe");
 
